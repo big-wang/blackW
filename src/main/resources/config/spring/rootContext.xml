@@ -13,7 +13,6 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<import resource="classpath:config/spring/services.xml"/>
 	
-<!-- 	<oxm:castor-marshaller id="marshaller" mapping-location="classpath:org/springframework/oxm/castor/mapping.xml"/>
- -->	<!-- <aop:aspectj-autoproxy/> --><!-- aspectj式切面 -->
+
 
 </beans>
