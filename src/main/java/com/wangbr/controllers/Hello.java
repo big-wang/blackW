@@ -34,7 +34,6 @@ public class Hello {
 
 	}
 
-	// WebDataBinder 用于定制请求中的string 转换到目标类型的
 	@InitBinder
 	protected void initBinder(WebDataBinder binder) {
 		log.info(binder.toString());

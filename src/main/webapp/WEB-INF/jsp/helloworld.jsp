@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html >
 <html>
 <head>
@@ -11,15 +10,38 @@
 <body>
 
 	<div class='container'>
-		<form role='form'>
-			<div class='row'>
-			<div class='form-group'>
-				<label for='account' class="col-xs-1">账号:</label> <input id='account' class="col-xs-3"/> 
+		<div class='row'>
+
+			<ul class="nav nav-pills col-xs-5 pull-left ">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">SVN</a></li>
+				<li><a href="#">iOS</a></li>
+				<li><a href="#">VB.Net</a></li>
+				<li><a href="#">Java</a></li>
+				<li><a href="#">PHP</a></li>
+			</ul>
+
+
+			<form class='col-xs-7' role='form'>
+				<div class='pull-right'>
+					<button type="button" class="btn btn-default btn-md">
+						<span class="glyphicon glyphicon-user ">登陆</span>
+					</button>
 				</div>
-				<label for='password' class="col-xs-1">密码:</label> <input id='password' class="col-xs-3"/>
-				<button type='button' class="btn col-xs-1">登入</button>
-			</div>
-		</form>
+				<div class='pull-right'>
+					<label for="password">密码：</label> <input type='password' id="password" placeholder='请输入密码'>
+				</div>
+				<div class='pull-right'>
+					<label for="username">用户：</label> <input type='text' id="username" placeholder='请输入用户名'>
+				</div>
+
+			</form>
+
+
+
+
+		</div>
+
 	</div>
 
 
@@ -27,7 +49,7 @@
 
 
 
-	<script  src="${contextPath}/resources/js/pub/jquery/jquery-3.2.1.min.js"/>
-	<script  src="${contextPath}/resources/js/pub/bootstrap3/js/bootstrap.min.js"/>
+	<script src="${contextPath}/resources/js/pub/jquery/jquery-3.2.1.min.js" />
+	<script src="${contextPath}/resources/js/pub/bootstrap3/js/bootstrap.min.js" />
 </body>
 </html>
