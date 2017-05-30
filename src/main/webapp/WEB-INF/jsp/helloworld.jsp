@@ -49,7 +49,7 @@
 
 
 
-	<script src="${contextPath}/resources/js/pub/jquery/jquery-3.2.1.min.js" />
-	<script src="${contextPath}/resources/js/pub/bootstrap3/js/bootstrap.min.js" />
+	<script src="${contextPath}/resources/js/pub/jquery/jquery-3.2.1.min.js" ></script>
+	<script src="${contextPath}/resources/js/pub/bootstrap3/js/bootstrap.min.js" ></script>
 </body>
 </html>
